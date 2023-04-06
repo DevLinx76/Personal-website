@@ -1,6 +1,6 @@
 h1 {
     font-weight: 500;
-    font-family: 'papyrus', sans-serif;
+    font-family: 'papyrus';
 }
 h2 {
     font-weight: 300;
@@ -20,4 +20,29 @@ h2 {
     font-size: 3em;
     text-align: center;
     margin-top: auto;
+}
+
+img {
+    width: 40px;
+    height: auto;
+    margin-bottom: center;
+    
+}
+
+.name {
+    font-weight: 300;
+    font-family: 'papyrus', sans-serif;
+}
+
+.name {
+    font-size: 2em;
+}
+
+.Links {
+    font-weight: 300;
+    font-family: 'papyrus', sans-serif;
+}
+
+.Links {
+    font-size: 1em;
 }
