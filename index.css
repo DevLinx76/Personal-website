@@ -42,7 +42,18 @@ img {
     font-weight: 300;
     font-family: 'papyrus', sans-serif;
 }
+.active {
+    width: 100;
+    border: 1px solid black;
+    display: flex;
+    margin: 20px;
+}
 
 .Links {
     font-size: 1em;
+}
+
+body {
+    background-color: rgb(4, 224, 248);
+    background-image: ;
 }
