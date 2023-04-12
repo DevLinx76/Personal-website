@@ -14,6 +14,14 @@ h1 {
 h2 {
     font-size: 1em;
 }
+h5 {
+    font-weight: 300;
+    font-family: 'Optima', sans-serif;
+    color: rgb(225, 250, 4);
+    font-size: 2.5em;
+    text-align: center;
+    text-shadow: rgb(255, 238, 0) 1px 0 10px;
+}
 .quote {
     font-family: 'brush Script MT';
     font-weight: 100;
@@ -31,17 +39,26 @@ img {
     
 }
 
-.name {
+.fname {
     font-weight: 300;
     font-family: 'papyrus', sans-serif;
     font-size: 2em;
     color: rgb(255, 255, 255);
 }
 
+label {
+    font-weight: 300;
+    font-size: 1.2em;
+    font-family: 'Optima', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
 .Links {
     font-weight: 300;
     font-family: 'papyrus', sans-serif;
+    font-size: 2em;
 }
+
 .active {
     width: 100;
     border: 1px solid rgb(255, 253, 253);
@@ -50,24 +67,38 @@ img {
     padding: 10px;
 }
 
-.Links {
-    font-size: 1em;
-}
-
 body {
-    background-color: rgb(0, 229, 255);
+    background-color: rgb(4, 4, 4);
     background-image: url("Images/night-sky-milky-way-galaxy_601658-108.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+     
+}
 
+.form {
+    font-weight: 50;
+    font-family: 'papyrus', sans-serif;
+    font-size: 1.85em;
+    color: rgb(255, 255, 255);
+    display: grid;
+    justify-content: space-around;
+    padding: 5em;
+}
+input {
+    font-weight: 50;
+    font-family: 'papyru', sans-serif;
+    font-size: 1em;
+    color: rgb(4, 4, 4);
 }
 
 .button-group {
     display: flex;
+    
 }
 
 nav {
     background-color: white;
+    
 }
 
 footer {
@@ -77,3 +108,4 @@ footer {
     justify-content: space-evenly;
     padding: 1em;
 }
+

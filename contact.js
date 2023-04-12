@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <!-- Devin's Homepage -->
-
+    <!-- styles for all pages -->
+ 
     <link rel="stylesheet" href="index.css" />
 </head>
 <body>
@@ -15,15 +15,10 @@
         <a class="active" href="portfolio.html">PORTFOLIO</a>
         <a class="active" href="contact.html">CONTACT</a>
     </div>
-    
+
 </nav>
     </header>
     <main>
-       <h1>Software Engineer & Developer</h1>
-       <h2>Hmm...</h2>
-       <h3 class="quote">“If you are working on <br> something that you really care about, <br> you don’t have to be pushed. <br> The vision pulls you.”
-        <br />- Steve Jobs </h3>
-
 
     </main>
     <footer>
