@@ -9,7 +9,7 @@ h2 {
     color: rgb(255, 255, 255);
 }
 h1 {
-    font-size: 2em;
+    font-size: 2.5em;
 }
 h2 {
     font-size: 1em;
@@ -42,8 +42,10 @@ img {
 .fname {
     font-weight: 300;
     font-family: 'papyrus', sans-serif;
-    font-size: 2em;
-    color: rgb(255, 255, 255);
+    font-size: 4em;
+    color: rgb(214, 233, 140);
+    text-shadow: rgb(255, 238, 0) 1px 0 10px;
+    
 }
 
 label {
@@ -65,14 +67,15 @@ label {
     display: flex;
     margin: 20px;
     padding: 10px;
+    text-align: right;
 }
 
 body {
     background-color: rgb(4, 4, 4);
     background-image: url("Images/night-sky-milky-way-galaxy_601658-108.jpeg");
     background-repeat: no-repeat;
-    background-size: cover;
-     
+    background-size: cover;  
+    
 }
 
 .form {
@@ -109,3 +112,15 @@ footer {
     padding: 1em;
 }
 
+footer {
+    box-sizing: border-box;
+    position: fixed;
+    height: 64px;
+    padding: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    box-shadow: 0 -2px 4px -2px black;
+}
+  
